@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(136, 224, 136);
+    background-color: rgba(136, 224, 136, 0.555);
     font-family: Arial, Helvetica, sans-serif;
 
 }
 h1{
 
     color: rgba(2, 107, 2, 0.733);
+    font-size: 3.5em
 }
 
 h2{
@@ -16,6 +17,28 @@ h2{
 }
 h1#principal{
     text-align: center;
-    background-color: aliceblue;
-    color: blue;
+    background-color: rgba(0, 128, 0, 0.747);
+    color: rgba(255, 255, 255, 0.568);
+}
+.basico{
+    color:  rgba(0, 128, 0, 0.671);
+}
+
+.intermediario {
+    color:rgba(230, 104, 20, 0.527);       
+}
+.avancado{
+    color: rgba(255, 0, 0, 0.541);
+}
+.subtitle{
+    background-color: rgba(240, 248, 255, 0.63);
+    color: rgba(0, 0, 255, 0.521);
+    font-size: 30px;
+}
+p{
+    text-align: justify;
+    
+}
+.destaque{
+    background-color: rgba(131, 131, 75, 0.596);
 }
