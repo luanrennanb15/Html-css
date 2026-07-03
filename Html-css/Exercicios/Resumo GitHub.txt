@@ -1,0 +1,40 @@
+chekout
+git init
+--- inicia um novo repositorio
+
+git status
+--- aqui mostra todo o seu programa para ver se subiu para o git ou nao
+
+git add .      
+1°--- aqui voce adiciona todos os arquivos de uma vez
+
+git commit -m " escrever oque voce atualizou do programa "      
+2°--- aqui voce atualiza o programa e faz uma linha do tempo de tudo que foi colocado .
+
+git push
+--- sobe o projeto para o git hub em MASTER
+
+git reflog
+--- ve as versoes anteriotes dos seus programas ou atualizaões
+
+git reset --hard 123456 id
+--- caso queira voltar uma versao anterior ou errou em algo e quer pegar do inicio , voce deicide.
+
+git pull
+--- atualiza sua branch
+
+git branch colocar um nome que quiser depois do branch, caso nao coloque ele so ira pesquisa a lista de branch
+---aqui voce consegue duplicar seu codigo master ou principal e fazer alterações enquanto o codigo principal fica rodando.
+
+git remote add origin https://github.com/luanrennanb15/brench      <---- exemplo
+--- aqui voce coloca o repositorio que voce criou para subir seus programas
+
+git checkout 'coloca o nome que voce deu para a branch'
+---aqui voce troca de branch , depois de criado uma duplicação de seu codigo voce pode trocar quando quiser.
+
+git merge aqui coloca o nome que recebe a atualização a branch
+--- voce consegue herdar tudo que fez na branch que voce criou para melhorar seu codigo
+
+git clone e o enedereço do git o link
+--- aqui voce clona o projeto de outra pessoa
+
