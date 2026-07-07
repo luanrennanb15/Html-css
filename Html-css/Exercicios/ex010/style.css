@@ -1,24 +1,39 @@
 
-
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: rgba(0, 0, 0, 0.829);
     text-justify: auto;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    
 }
 
 main{
+    
+    width: 90%;
+    margin: auto;
+    text-align: center;
     background-color: white;
     border-radius: 7px 0px 7px 0px;
+    padding-top: 5px;
+    
     
 }
 
 h1{
+    
     background-color: rgba(165, 42, 42, 0.418);
     border-radius: 7px 0px 7px 0px;
     text-align: center;
-    padding: 0px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     margin: 15px 10px 100px 10px;
     color: rgba(0, 0, 0, 0.822);
+
 
 }
 p{
@@ -27,6 +42,7 @@ p{
     margin-left: 15px;
 }
 h2{
+    margin: 10px;
     margin-left: 15px;
     background-color: rgba(165, 42, 42, 0.486);
     border-radius: 7px 0px 7px 0px;
@@ -36,6 +52,7 @@ h2{
     height: 30px;
 }
 h3{
+    margin: 10px;
     margin-left: 15px;
     background-color: rgba(165, 42, 42, 0.486);
     border-radius: 7px 0px 7px 0px;
