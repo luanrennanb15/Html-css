@@ -1,14 +1,46 @@
 
-main{
-    background-color: rgba(0, 0, 0, 0.425);
-}
+
 body{
-    background-color: rgba(231, 229, 229, 0.521);
-    margin: 7px;
+    background-color: rgba(0, 0, 0, 0.829);
     text-justify: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    background-color: rgba(165, 42, 42, 0.288);
-    border-radius: 3px;
+
+main{
+    background-color: white;
+    border-radius: 7px 0px 7px 0px;
     
+}
+
+h1{
+    background-color: rgba(165, 42, 42, 0.418);
+    border-radius: 7px 0px 7px 0px;
+    text-align: center;
+    padding: 0px 10px 10px 10px;
+    margin: 15px 10px 100px 10px;
+    color: rgba(0, 0, 0, 0.822);
+
+}
+p{
+    text-align: justify;
+    text-indent: 15px;
+    margin-left: 15px;
+}
+h2{
+    margin-left: 15px;
+    background-color: rgba(165, 42, 42, 0.486);
+    border-radius: 7px 0px 7px 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.74);
+    width: 280px;
+    height: 30px;
+}
+h3{
+    margin-left: 15px;
+    background-color: rgba(165, 42, 42, 0.486);
+    border-radius: 7px 0px 7px 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.74);
+    width: 320px;
+    height: 30px;
 }
